@@ -5,7 +5,7 @@ const CardTable5 = () => {
 return (
 <div className='card p-3'>
   <h6 className='h6-size'>HERRAMIENTAS TIC</h6>
-  <img src={tics} alt='table' height={50} width={50} className='m-1 img-fluid mx-auto'></img>
+  <img src={tics} alt='table' height={50} width={50} className='m-1 img-fluid mx-auto img-custom'></img>
   <div className='card-body bg-black bg-opacity-10 p-0 '>
   <ul>
     <li className='p-1'>Herramienta tic 1</li>

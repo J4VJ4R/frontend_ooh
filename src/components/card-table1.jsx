@@ -5,12 +5,14 @@ const CardTable1 = () => {
 return (
 <div className='card p-3'>
   <h6 className='h6-size'>PRODUCTO FINAL DEL PROYECTO</h6>
-  <img src={product} alt='table' height={50} width={50} className='m-1 img-fluid mx-auto'></img>
+  <img src={product} alt='table' height={50} width={50} className='m-1 img-fluid mx-auto img-custom '></img>
   <div className='card-body bg-black bg-opacity-10 p-0 '>
+    <p className='m-1'>lorem ipsum dolor sit amet, consectetur adip</p>
+    <p className='m-1'>lorem ipsum dolor sit amet, consectetur adip</p>
     <p className='m-1'>lorem ipsum dolor sit amet, consectetur adip</p>
     <div className="">
       <textarea className="form-control" id="exampleFormControlTextarea1" rows="10"
-      placeholder='Escribe aquí el producto final'></textarea>
+        placeholder='Escribe aquí el producto final'></textarea>
     </div>
     <Link to={'/'} className='btn btn-link text-black'>
     {/* buttons to crud */}

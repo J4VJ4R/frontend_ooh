@@ -5,7 +5,7 @@ const CardTable = () => {
 return (
 <div className='card p-3'>
   <h6 className='h6-size'>COMPETENCIAS CLAVE</h6>
-  <img src={capacity} alt='table'  className='m-1 img-fluid mx-auto card-img-custom ' height={50} width={50}></img>
+  <img src={capacity} alt='table'  className='m-1 img-fluid mx-auto card-img-custom img-custom ' height={50} width={50}></img>
   <div className='card-body p-0 bg-black bg-opacity-10 '>
   <ul>
     <li className='p-1'>Competencia uno</li>

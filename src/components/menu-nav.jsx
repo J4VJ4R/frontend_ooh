@@ -23,6 +23,7 @@ return(
           </NavDropdown.Item>
         </NavDropdown>
         <Nav.Link href="/" className="text-light">Salir</Nav.Link>
+        <Nav.Link href="/qr" className="text-light">Ver QR</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Container>
