@@ -8,17 +8,17 @@ function MenuNav(){
 return(
 <Fragment>
 <Navbar bg="bg-loto-" expand="lg" >
-  <Container className="p-0">
-    <Navbar.Brand href="/" className="text-light">SMARTABLE</Navbar.Brand>
+  <Container className="p-3 border-custom container">
+    <Navbar.Brand href="/" > <p className="text-light-custom"> CANVAS PARA EL DISEÑO DE PROYECTOS</p></Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
         <Nav.Link href="/" className="text-light">Inicio</Nav.Link>
-        <NavDropdown title="Caja" id="basic-nav-dropdown" className="dropdown-loto" >
-          <NavDropdown.Item href="/" className="text-black">Mesas</NavDropdown.Item>
+        <NavDropdown title="Cuenta" id="basic-nav-dropdown" className="dropdown-loto" >
+          <NavDropdown.Item href="/" className="text-black">Crear tablero</NavDropdown.Item>
           <NavDropdown.Item href="/caja1" className="text-black">
-              <Link to="/caja1">
-                Inventario
+              <Link to="/">
+                Cerrar sesión
               </Link>
           </NavDropdown.Item>
         </NavDropdown>

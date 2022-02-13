@@ -8,108 +8,57 @@ Route,
 import './scss/app.scss';
 import MenuNav from './components/menu-nav';
 import CardTable from './components/card-table';
-import Table from './components/table';
-import Categories from './components/categories';
-import Inventary from './components/inventary';
-import InventaryTable from './components/inventary-table';
-import OrderTable from './components/order-table';
-import VerticalNav from './components/vertical-nav';
-import EntriesTable from './components/entries-table';
-import OutputsTable from './components/outputs-table';
-import ButtonCircle from './components/button-circle'
+import CardTable1 from './components/card-table1';
+import CardTable2 from './components/card-table2';
+import CardTable3 from './components/card-table3';
+import CardTable4 from './components/card-table4';
+import CardTable5 from './components/card-table5';
+import CardTable6 from './components/card-table6';
+import CardTable7 from './components/card-table7';
+import CardTable8 from './components/card-table8';
+
+// import ButtonCircle from './components/button-circle'
 function App() {
 return (
 <Router>
   <Switch>
 
     <Route exact path="/">
-      <div className="App container bg-loto-1 pb-4">
+      <div className="App container-custom bg-1 pb-4">
         <MenuNav></MenuNav>
+        {/* nine cards for canvas board */}
         <div className='row'>
-          <div className='col d-flex justify-content-center pt-2'>
-            <CardTable table="M1" />
+          <div className='col-xs-12 col-sm-6 col-md-4 d-flex justify-content-center pt-2'>
+            <CardTable />
           </div>
-          <div className='col d-flex justify-content-center pt-2'>
-            <CardTable table="M2" />
+          <div className='col-xs-12 col-sm-6 col-md-4 d-flex justify-content-center pt-2'>
+            <CardTable1 table="M2" />
           </div>
-          <div className='col d-flex justify-content-center pt-2'>
-            <CardTable table="M3" />
+          <div className='col-xs-12 col-sm-6 col-md-4 d-flex justify-content-center pt-2'>
+            <CardTable2/>
+          </div>
+          <div className='col-xs-12 col-sm-4 d-flex justify-content-center pt-2'>
+            <CardTable8/>
+          </div>
+          <div className='col-xs-12 col-sm-6 col-md-4 d-flex justify-content-center pt-2'>
+            <CardTable3/>
+          </div>
+          <div className='col-xs-12 col-sm-6 col-md-4 d-flex justify-content-center pt-2'>
+            <CardTable4/>
+          </div>
+          <div className='col-xs-12  col-sm-6 col-md-4 d-flex justify-content-center pt-2'>
+            <CardTable5/>
+          </div>
+          <div className='col-xs-12 col-sm-6 col-md-4 d-flex justify-content-center pt-2'>
+            <CardTable6/>
+          </div>
+          <div className='col-xs-12 col-sm-6 col-md-4 d-flex justify-content-center pt-2'>
+            <CardTable7/>
           </div>
         </div>
       </div>
     </Route>
     
-    <Route path="/comanda1">
-      <div className="App container bg-loto-1 pb-4">
-        <MenuNav></MenuNav>
-        <Table />
-        <Categories></Categories>
-      </div>
-    </Route>
-    <Route path="/caja1">
-      <div className="App container bg-loto-1 pb-4">
-        <MenuNav></MenuNav>
-        <Inventary></Inventary>
-      </div>
-    </Route>
-    <Route path="/inventario-total">
-      <div className="App container bg-loto-1 pb-4">
-        <MenuNav></MenuNav>
-        <h2 className="text-light">Fecha: Martes 21 - 12 - 21</h2>
-        <div className='row'>
-          <div className="col-sm-12 col-md-2">
-            <VerticalNav/>
-          </div>
-          <div className="col">
-            <InventaryTable></InventaryTable>
-          </div>
-        </div>
-      </div>
-    </Route>
-    <Route path="/salidas">
-      <div className="App container bg-loto-1 pb-4">
-        <MenuNav></MenuNav>
-        <h2 className="text-light">Fecha: Martes 21 - 12 - 21</h2>
-        <div className='row'>
-          <div className=" col-sm-12 col-md-2">
-            <VerticalNav/>
-          </div>
-          <div className="col">
-            <OutputsTable/>
-          </div>
-        </div>
-      </div>
-    </Route>
-    <Route path="/entradas">
-      <div className="App container bg-loto-1 pb-4">
-        <MenuNav></MenuNav>
-        <h2 className="text-light">Fecha: Martes 21 - 12 - 21</h2>
-        <div className='row'>
-          <div className=" col-sm-12 col-md-2">
-            <VerticalNav/>
-          </div>
-          <div className="col">
-            <EntriesTable/>
-          </div>
-        </div>
-        
-      </div>
-    </Route>
-    <Route path="/pedidos">
-      <div className="App container bg-loto-1 pb-4 mr-0">
-        <MenuNav></MenuNav>
-        <h2 className="text-light">Fecha: Martes 21 - 12 - 21</h2>
-        <div className='row'>
-          <div className=" col-sm-12 col-md-2">
-            <VerticalNav/>
-          </div>
-          <div className="col">
-            <OrderTable/>
-          </div>
-        </div>
-        
-      </div>
-    </Route>
   </Switch>
 </Router>
 );

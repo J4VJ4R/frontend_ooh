@@ -1,0 +1,51 @@
+@mixin img-lg{
+  height: 10rem !important;
+  width: 10rem;
+}
+
+@media (min-width: 1024px) {
+  .text-light-custom{
+    color: white;
+    font-size: 3rem;
+  }
+  .border-custom{
+    border: 1px solid white;
+    border-radius: 3rem;
+  }
+  
+img{
+  @include img-lg();
+}
+
+.h6-size{
+  font-size: 3rem;
+  text-align: center;
+}
+}
+@mixin img-lg{
+  height: 7rem !important;
+  width: 7rem;
+}
+
+@media (max-width: 768px) {
+  
+img{
+  @include img-lg();
+}
+
+.h6-size{
+  font-size: 1rem;
+  text-align: center;
+}
+
+.text-light-custom{
+  color: white;
+  font-size: 2rem;
+}
+}
+@media (max-width: 524px){
+  .text-light-custom{
+    color: white;
+    font-size: 1rem;
+  }
+}
