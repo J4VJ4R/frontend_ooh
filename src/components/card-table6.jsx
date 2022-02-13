@@ -13,7 +13,8 @@ return (
     <li className='p-1'>Método de evaluación 3</li>
   </ul>
     <div className="">
-      <textarea className="form-control" id="exampleFormControlTextarea1" rows="10" placeholder></textarea>
+      <textarea className="form-control" id="exampleFormControlTextarea1" rows="10" placeholder='Escribe aquí
+      los métodos de evaluación'></textarea>
     </div>
     <Link to={'/'} className='btn btn-link text-black'>
     {/* buttons to crud */}

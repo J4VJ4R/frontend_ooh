@@ -2,7 +2,10 @@
   height: 10rem !important;
   width: 10rem;
 }
-
+.text-light-custom{
+  color: white;
+  font-size: 1.7rem;
+}
 @media (min-width: 1024px) {
   .text-light-custom{
     color: white;
@@ -47,5 +50,10 @@ img{
   .text-light-custom{
     color: white;
     font-size: 1rem;
+  }
+}
+@media (min-width: 525px){
+  .text-light-custom{
+    font-size: 1.3rem;
   }
 }

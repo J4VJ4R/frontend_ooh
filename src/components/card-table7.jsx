@@ -13,7 +13,8 @@ return (
     <li className='p-1'>Difusión 3</li>
   </ul>
     <div className="">
-      <textarea className="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+      <textarea className="form-control" id="exampleFormControlTextarea1" rows="10" placeholder='
+      Escribe aquí los datos de difusión'></textarea>
     </div>
     <Link to={'/'} className='btn btn-link text-black'>
     {/* buttons to crud */}
