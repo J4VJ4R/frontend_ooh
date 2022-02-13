@@ -21,8 +21,8 @@ Aplicación canvas en donde se quiere dar a conocer un tablero para mostrar el m
 
 ### Author info ✒️
 
-- Twitter - [@javifullstack](https://twitter.com/javifullstack) :blue_heart:
-- Linkedin - [Javier Jaramillo | Systems Engineer | Full-Stack Software Developer](https://www.linkedin.com/in/javier-jaramillo-346b681a1/) :gem:
+- Twitter - [@javifrontend](https://twitter.com/javifrontend1) :blue_heart:
+- Linkedin - [Javier Jaramillo | Systems Engineer | Front-End Software Developer](https://www.linkedin.com/in/javier-jaramillo-346b681a1/) :gem:
 
 ### ⌨ with ❤  ️and ☕ by Javier Jaramillo :octocat:
 
