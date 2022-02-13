@@ -13,17 +13,10 @@ return(
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-        <Nav.Link href="/" className="text-light">Inicio</Nav.Link>
-        <NavDropdown title="Cuenta" id="basic-nav-dropdown" className="dropdown-loto" >
-          <NavDropdown.Item href="/" className="text-black">Crear tablero</NavDropdown.Item>
-          <NavDropdown.Item href="/caja1" className="text-black">
-              <Link to="/">
-                Cerrar sesión
-              </Link>
-          </NavDropdown.Item>
-        </NavDropdown>
-        <Nav.Link href="/" className="text-light">Salir</Nav.Link>
-        <Nav.Link href="/qr" className="text-light">Ver QR</Nav.Link>
+        <Link to="/" className="text-light link-custom pt-0 mx-2">Inicio</Link>
+        <Link to="/" className="text-light link-custom pt-0 mx-2">Salir</Link>
+        <Link to="/" className="text-light link-custom pt-0 mx-2">Crear tablero</Link>
+        <Link to="/qr" className="text-light link-custom pt-0 mx-2">Ver QR</Link>
       </Nav>
     </Navbar.Collapse>
   </Container>
