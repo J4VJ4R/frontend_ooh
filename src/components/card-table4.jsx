@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 const CardTable4 = () => {
 return (
 <div className='card p-3'>
-  <h6 className='h6-size'>TAREAS</h6>
+  <h6 className='h6-size'>TAREAS DEL PROYECTO</h6>
   <img src={tasks} alt='table' height={50} width={50} className='m-1 img-fluid mx-auto'></img>
   <div className='card-body bg-black bg-opacity-10 p-0'>
     <ul>

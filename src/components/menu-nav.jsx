@@ -9,7 +9,7 @@ return(
 <Fragment>
 <Navbar bg="bg-loto-" expand="lg" >
   <Container className="p-3 border-custom container">
-    <Navbar.Brand href="/" > <p className="text-light-custom"> CANVAS PARA EL DISEÑO DE PROYECTOS</p></Navbar.Brand>
+    <Navbar.Brand href="/" > <p className="text-light-custom mt-3"> CANVAS PARA EL DISEÑO DE PROYECTOS</p></Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
